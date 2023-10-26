@@ -1,7 +1,7 @@
 import {FiGithub, FiLinkedin, FiMail, FiMapPin } from "react-icons/fi";
 
-import project1 from "./assets/img/proyecto1.png";
-import project2 from "./assets/img/proyecto2.png";
+import project1 from "./assets/img/projecto 1.png";
+import project2 from "./assets/img/projecto 2.png";
 
 import SkillImg1 from "./assets/skills/js.png";
 import SkillImg2 from "./assets/skills/reactjs.png";
