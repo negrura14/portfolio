@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import FirstPage from './Components/FirstPage/FirstPage'
+import Hero from './Components/Hero/Hero'
 import About from './Components/About/About'
 import Portfolio from './Components/Portfolio/Portfolio';
 import ContactMe from './Components/ContactMe/ContactMe';
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
        <Header/>
-       <FirstPage/>
+       <Hero/>
        <About/>
        <Portfolio/>
        <ContactMe/>
