@@ -1,8 +1,9 @@
 import React from "react";
 
 import Image from "../../assets/about.png"
-import { navigation } from "../../data";
+import { navigation} from "../../data";
 import { Link } from "react-scroll";
+
 
 
 
@@ -41,11 +42,14 @@ function About () {
                                 PostgreSQL, React.js, Redux. VCS tool: Git.
                             </p>
                         </div>
-                        <Link to={navigation[3].href} activeClass="active" spy={true} smooth={true} duration={500} offset={-70} className="transition-all duration-300">
-                            <button className="btn btn-md bg-accent hover:bg-secondary-hover transition-all">
+                        <a
+                            href="https://drive.google.com/file/d/1hjDijMrp2hDGKhvw8CBW71EnKs2ukarV/view?usp=drive_link"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <button className="btn btn-md bg-accent hover-bg-secondary-hover transition-all">
                                 My CV
                             </button>
-                        </Link>
+                        </a>
 
                     </div>
 
