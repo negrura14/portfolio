@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import { projectsData } from "../../data";
-import { projectsNav } from "../../data";
+
 
 import Project from "./Project";
 
@@ -30,21 +30,6 @@ const Projects = () => {
     <div>
       <nav className="mb-12 max-w-xl mx-auto">
         <ul className="flex flex-col md:flex-row justify-evenly items-center text-white">
-          {projectsNav.map((item, index) => {
-            return (
-              <li
-                onClick={(e) => {
-                  handleClick(e, index);
-                }}
-                className={`${
-                  active === index ? "active" : ""
-                } cursor-pointer capitalize m-4`}
-                key={index}
-              >
-                {item.name}
-              </li>
-            );
-          })}
         </ul>
       </nav>
 

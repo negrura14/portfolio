@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { db } from "../../firebase";
-import { collection, doc , setDoc } from "firebase/firestore";
+import {  addDoc, collection } from "firebase/firestore";
 
 import "react-toastify/dist/ReactToastify.css";
 import { toast, ToastContainer } from "react-toastify";
@@ -19,14 +19,13 @@ const ContactMe = () => {
 
   const [error, setError] = useState({});
 
-  console.log(values);
 
   const userCollectionRef = collection(db, "contacts");
 
   const handleOnChange = (e) => {
     const { name, value } = e.target;
     setValues({ ...values, [name]: value });
-    console.log(values);
+    
   };
 
   const validate = (value) => {
@@ -49,7 +48,7 @@ const ContactMe = () => {
     return errors;
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit =  (e) => {
     e.preventDefault();
     setError(validate(values));
     setIsSubmit(true);
@@ -57,7 +56,7 @@ const ContactMe = () => {
       toast.warn("Please fill all the fields");
     } else {
       try {
-        await setDoc(doc(userCollectionRef, 'contacts'), {
+        addDoc(userCollectionRef, {
           name: values.name,
           email: values.email,
           subject: values.subject,
@@ -74,7 +73,6 @@ const ContactMe = () => {
   useEffect(() => {
     console.log(error);
     if (Object.keys(error).length === 0 && isSubmit) {
-      console.log(values);
     }
   }, [error]);
 
