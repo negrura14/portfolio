@@ -15,20 +15,20 @@ import SkillImg8 from "./assets/skills/git.png";
 
 export const navigation = [
     {
-        name: "home",
-        hrf: "home",
+        name: "Home",
+        href: "home",
     },
     {
-        name: "about",
+        name: "About",
         href: "about",
 
     },
     {
-        name: "portfolio",
+        name: "Portfolio",
         href: "portfolio"
     },
     {
-        name: "contact",
+        name: "Contact",
         href: "contact"
     },
 ];
