@@ -1,17 +1,8 @@
-
 {
     "rewrites": [
         {
             "source": "/(.*)",
             "destination": "/"
-            
-        },
-        {
-            "builds": [
-                { "src": "your-source-directory", "use": "@vercel/node" }
-              ]
         }
-        
     ]
-    
 }
