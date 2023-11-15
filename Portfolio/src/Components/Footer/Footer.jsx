@@ -19,7 +19,7 @@ const Footer = () => {
             })}
           </div>
           <div>
-            <p >Emanuel Nieto</p>
+            <p className="text-teal-200 text-xl">Emanuel Nieto</p>
           </div>
         </div>
       </div>

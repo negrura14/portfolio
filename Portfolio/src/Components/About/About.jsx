@@ -24,7 +24,7 @@ function About () {
                             <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block">
                                 Emanuel Nieto
                             </h2>
-                            <p className="mb-4 text-accent">Full Stack Developer</p>
+                            <p className="mb-4 text-emerald-600 text-xl">Full Stack Developer</p>
                             <hr className="mb-8 opacy-5" />
                             <p className="mb-8">
                                 👨🏽‍💻 Full Stack Developer with the ability to create and optimize 
@@ -46,7 +46,7 @@ function About () {
                             href="https://drive.google.com/file/d/1gIPdEVB6H1kgiKa1uXmB-WnaLax342t9/view?usp=drive_link"
                             target="_blank"
                             rel="noopener noreferrer">
-                            <button className="btn btn-md bg-accent hover-bg-secondary-hover transition-all">
+                            <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">
                                 My CV
                             </button>
                         </a>

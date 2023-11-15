@@ -150,7 +150,7 @@ const ContactMe = () => {
             {<p className="text-red-500">{error.message}</p>}
             <button
               type="submit"
-              className="btn btn-lg bg-accent hover:bg-secondary-hover"
+              className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all"
             >
               Send message
             </button>
