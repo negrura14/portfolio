@@ -3,7 +3,11 @@
     "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "/"
+            "destination": "/",
+            "builds": [
+                { "src": "your-source-directory", "use": "@vercel/node" }
+              ]
         }
+        
     ]
 }
