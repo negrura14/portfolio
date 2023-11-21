@@ -1,6 +1,6 @@
 import {FiGithub, FiLinkedin, FiMail, FiMapPin } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
-import { ImPhone } from "react-icons/im";
+import { RiPhoneLine } from "react-icons/ri";
 
 import project1 from "./assets/img/projecto 1.png";
 import project2 from "./assets/img/projecto 2.png";
@@ -119,7 +119,7 @@ export const contact = [
         description: "+54 9 351 345-4697",
     },
     {
-        icon: <ImPhone />,
+        icon: <RiPhoneLine />,
         title: "Call me",
         subtitle: "For whatever you need",
         description: "+54 9 351 619-6235"
