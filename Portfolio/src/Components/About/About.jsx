@@ -43,7 +43,7 @@ function About () {
                             </p>
                         </div>
                         <a
-                            href="https://drive.google.com/file/d/1gIPdEVB6H1kgiKa1uXmB-WnaLax342t9/view?usp=drive_link"
+                            href="https://drive.google.com/file/d/1WlA0_TBq68GU3vlJOI72OIaz6y_rizkX/view"
                             target="_blank"
                             rel="noopener noreferrer">
                             <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">
