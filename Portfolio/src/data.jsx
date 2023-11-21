@@ -1,4 +1,6 @@
 import {FiGithub, FiLinkedin, FiMail, FiMapPin } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
+import { ImPhone } from "react-icons/im";
 
 import project1 from "./assets/img/projecto 1.png";
 import project2 from "./assets/img/projecto 2.png";
@@ -37,11 +39,11 @@ export const navigation = [
 
 export const social = [
     {
-        icon: <FiLinkedin />,
+        icon: <FiLinkedin  className="h-6 w-6"/>,
         href: "https://www.linkedin.com/in/emanuel-nieto-230aab264/"
     },
     {
-        icon: <FiGithub />,
+        icon: <FiGithub  className="h-6 w-6"/>,
         href: "https://github.com/negrura14",
     },
 ];
@@ -99,7 +101,7 @@ export const skills = [
 export const contact = [
     {
         icon: <FiMail />,
-        title: "Have a question?",
+        title: "Do you have any question?",
         subtitle: "I am here to help you.",
         description: "Email me at talleresmatador114@gmail.com",
     },
@@ -109,5 +111,19 @@ export const contact = [
         subtitle: "Córdoba, Argentina",
         description: "Serving clients worldwide",
     },
+
+    {
+        icon: <FaWhatsapp  />,
+        title: "Send me a message",
+        subtitle: "I answer instantly",
+        description: "+54 9 351 345-4697",
+    },
+    {
+        icon: <ImPhone />,
+        title: "Call me",
+        subtitle: "For whatever you need",
+        description: "+54 9 351 619-6235"
+    },
+
 ];
 
