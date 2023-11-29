@@ -4,6 +4,8 @@ import Logo from "../../assets/svg.svg";
 import Navbar from "../NavBar/NavBar";
 import NavMobile from "../NavMobile/NavMobile";
 import Socials from "../Socials/Socials";
+import DateTimeDisplay from '../Time/Time'
+
 
 const Header = () => {
   const [bg, setBg] = useState(false);
@@ -31,8 +33,12 @@ const Header = () => {
         </div>
         {/* socials  */}
         <div className="hidden lg:block">
-          <Socials />
+          <Socials /> 
+          
         </div>
+         <div className="relative left-10">
+           <DateTimeDisplay/>
+         </div>
         {/* nav mobile  */}
         <div className="lg:hidden">
           <NavMobile />

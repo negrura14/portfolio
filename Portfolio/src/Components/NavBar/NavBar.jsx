@@ -1,6 +1,7 @@
 import React from "react";
 import { navigation } from "../../data";
 import { Link } from "react-scroll";
+import DateTimeDisplay from '../Time/Time'
 
 const NavBar = () => {
     return (
@@ -16,7 +17,9 @@ const NavBar = () => {
                         </li>
                     )
                 })}
+                
             </ul>
+            
         </div>
     )
 }

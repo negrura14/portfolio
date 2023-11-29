@@ -1,0 +1,10 @@
+.clock-container {
+    display: flex;
+}
+
+.time {
+    font-family: 'Share Tech Mono', monospace;
+    color: #daf6ff;
+    text-shadow: 0px 2px 2px rgb(8, 186, 138);
+    margin: 0;
+}
