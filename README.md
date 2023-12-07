@@ -2,7 +2,7 @@
 
 Este portfolio fue creado con tecnologias como Javascript, React, Vite, HTML, CSS, Firebase, librerias de estilos Tailwind
 
-##Caracteristica General
+## Caracteristica General
 
 - Este portfolio muestra mi descripcion profesional en el desarrollo web. Aqui se puede ver mi informacion personal, datos de contactos,
   un resumen sobre mi, mis redes sociales profesionales, las tecnologias que mas eh usado y mis proyectos
