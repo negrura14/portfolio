@@ -9,7 +9,7 @@ Este portfolio fue creado con tecnologias como Javascript, React, Vite, HTML, CS
 
 ## Tecnologías
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,react,nodejs,express,postgres,sass,bootstrap,firebase)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,react,nodejs,sass,tailwind,firebase)](https://skillicons.dev)
 
   ## Metodología ágil
 
