@@ -86,6 +86,7 @@ export const skills = [
     },
     {
         image: SkillImg5,
+        
     },
     {
         image: SkillImg6,

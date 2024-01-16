@@ -15,7 +15,7 @@ const Skills = () => {
                 className='flex items-center justify-center'
                 key={index}
               >
-                <img className='lg:h-20 lg:w-20' src={skill.image} alt='' />
+                <img className='lg:h-20 lg:w-20' src={skill.image}  alt='' />
               </div>
             );
           })}
