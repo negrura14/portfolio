@@ -51,15 +51,15 @@ export const social = [
 //projects
 
 export const projectsData = [
-    // {
-    //     id: "1",
-    //     image: project1,
-    //     name: "Pokemon app",
-    //     category: "Full Stack",
-    //     href: "",
-    //     description:
-    //     "A full stack application that allows users to search for Pokemon and view their characteristics.",
-    // },
+     {
+        id: "1",
+        image: project1,
+        name: "Pokemon app",
+        category: "Full Stack",
+        href: "https://pokemon-nieto.vercel.app/",
+        description:
+        "A full stack application that allows users to search for Pokemon and view their characteristics.",
+    },
     {
         id: "2",
         image: project2 ,
