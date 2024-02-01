@@ -58,7 +58,7 @@ export const projectsData = [
         category: "Full Stack",
         href: "https://pokemon-nieto.vercel.app/",
         description:
-        "A full stack application that allows users to search for Pokemon and view their characteristics.",
+        "Una aplicación completa que permite a los usuarios buscar Pokémon y ver sus características.",
     },
     {
         id: "2",
@@ -67,7 +67,7 @@ export const projectsData = [
         category: "Full Stack",
         href: "https://8-bits-front.vercel.app/",
         description:
-        "This application is a video game e-commerce, which allows users a unique experience when purchasing their favorite game.",
+        "Esta aplicación es un E-commerce de videojuegos, que permite a los usuarios una experiencia única al adquirir su juego favorito.",
     },
 ]
 
@@ -102,27 +102,27 @@ export const skills = [
 export const contact = [
     {
         icon: <FiMail />,
-        title: "Do you have any question?",
-        subtitle: "I am here to help you.",
-        description: "Email me at talleresmatador114@gmail.com",
+        title: "¿Tienes alguna pregunta?",
+        subtitle: "Estoy aqui para ayudarte.",
+        description: "Enviame un correo a talleresmatador114@gmail.com",
     },
     {
         icon: <FiMapPin />,
-        title: "Current Location",
+        title: "Ubicación actual",
         subtitle: "Córdoba, Argentina",
-        description: "Serving clients worldwide",
+        description: "Sirviendo a clientes en todo el mundo",
     },
 
     {
         icon: <FaWhatsapp  />,
-        title: "Send me a message",
-        subtitle: "I answer instantly",
+        title: "Enviame un WhatsApp",
+        subtitle: "Respondo al instante",
         description: "+54 9 351 345-4697",
     },
     {
         icon: <RiPhoneLine />,
-        title: "Call me",
-        subtitle: "For whatever you need",
+        title: "Llamame",
+        subtitle: "Para lo que necesites",
         description: "+54 9 351 619-6235"
     },
 
