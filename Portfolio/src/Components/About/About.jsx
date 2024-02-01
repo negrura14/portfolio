@@ -24,22 +24,22 @@ function About () {
                             <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block">
                                 Emanuel Nieto
                             </h2>
-                            <p className="mb-4 text-emerald-600 text-xl">Full Stack Developer</p>
+                            <p className="mb-4 text-emerald-600 text-xl">Desarrollador Web</p>
                             <hr className="mb-8 opacy-5" />
                             <p className="mb-8">
-                                👨🏽‍💻 Full Stack Developer with the ability to create and optimize 
-                                websites and applications aimed at the end user in a scalable 
-                                and modularized way. <br/>
+                                👨🏽‍💻 Desarrollador Full Stack con capacidad de crear y optimizar
+                                sitios web y aplicaciones dirigidas al usuario final de forma escalable
+                                y modularizada. <br/>
                                 <br />
-                                📚 I like to investigate, solve problems, learn from others
-                                and contribute ideas in order to achieve optimal results, 
-                                that is why in me you will find a developer with the ability to resolve
-                                conflicts, willing to listen to ideas and contribute all my knowledge
-                                to achieve the goals. proposed objectives. <br />
+                                📚 Me gusta investigar, resolver problemas, aprender de los demás.
+                                y aportar ideas para lograr resultados óptimos,
+                                por eso en mí encontrarás un desarrollador con capacidad de resolución
+                                de conflictos, dispuesto a escuchar ideas y aportar todos mis conocimientos
+                                para lograr las metas y objetivos propuestos. <br />
                                 <br />
-                                I have experience in JavaScript, HTML, CSS languages 
-                                and also in technologies such as Node.js, Express, Sequelize,
-                                PostgreSQL, React.js, Redux. VCS tool: Git.
+                                Tengo experiencia en lenguajes JavaScript, HTML, CSS.
+                                y también en tecnologías como Node.js, Express, Sequelize,
+                                PostgreSQL, React.js, Redux. Herramienta VCS: Git, Slack.
                             </p>
                         </div>
                         <a
@@ -47,7 +47,7 @@ function About () {
                             target="_blank"
                             rel="noopener noreferrer">
                             <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">
-                                My CV
+                                Mi CV
                             </button>
                         </a>
 

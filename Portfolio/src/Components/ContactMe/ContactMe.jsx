@@ -81,11 +81,11 @@ const ContactMe = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center text-center">
           <h2 className="section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block">
-            Contact me
+            Contáctame
           </h2>
           <p className="subtitle">
-            Do you want to know more about me? <br />
-            Don't hesitate and contact me!
+          ¿Quieres saber más sobre mí? <br />
+          ¡No lo dudes y contáctame!
           </p>
         </div>
         <div className="flex flex-col lg:gap-x-8 lg:flex-row">
@@ -117,7 +117,7 @@ const ContactMe = () => {
                 value={values.name}
                 className="input"
                 type="text"
-                placeholder="Your name"
+                placeholder="Su nombre"
                 onChange={handleOnChange}
               />
               {<p className="text-red-500">{error.name}</p>}
@@ -126,7 +126,7 @@ const ContactMe = () => {
                 value={values.email}
                 className="input"
                 type="email"
-                placeholder="Your email"
+                placeholder="Su email"
                 onChange={handleOnChange}
               />
               {<p className="text-red-500">{error.email}</p>}
@@ -136,7 +136,7 @@ const ContactMe = () => {
               value={values.subject}
               className="input"
               type="text"
-              placeholder="Subject"
+              placeholder="Asunto"
               onChange={handleOnChange}
             />
             {<p className="text-red-500">{error.subject}</p>}
@@ -144,7 +144,7 @@ const ContactMe = () => {
               name="message"
               value={values.message}
               className="textarea"
-              placeholder="Your message"
+              placeholder="Su mensaje"
               onChange={handleOnChange}
             ></textarea>
             {<p className="text-red-500">{error.message}</p>}
@@ -152,7 +152,7 @@ const ContactMe = () => {
               type="submit"
               className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all"
             >
-              Send message
+              Enviar
             </button>
           </form>
         </div>
