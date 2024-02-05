@@ -4,6 +4,7 @@ import { RiPhoneLine } from "react-icons/ri";
 
 import project1 from "./assets/img/projecto 1.png";
 import project2 from "./assets/img/projecto 2.png";
+import project3 from "./assets/img/proyecto 3.png"
 
 import SkillImg1 from "./assets/skills/js.png";
 import SkillImg2 from "./assets/skills/reactjs.png";
@@ -54,7 +55,7 @@ export const projectsData = [
      {
         id: "1",
         image: project1,
-        name: "Pokemon app",
+        name: "Pokemon App",
         category: "Full Stack",
         href: "https://pokemon-nieto.vercel.app/",
         description:
@@ -63,11 +64,20 @@ export const projectsData = [
     {
         id: "2",
         image: project2 ,
-        name: "8 Bits app",
+        name: "8 Bits App",
         category: "Full Stack",
         href: "https://8-bits-front.vercel.app/",
         description:
         "Esta aplicación es un E-commerce de videojuegos, que permite a los usuarios una experiencia única al adquirir su juego favorito.",
+    },
+    {
+        id: "3",
+        image: project3,
+        name: "Peliculas App",
+        category: "Full Stack",
+        href: "https://peliculas-nieto.vercel.app/",
+        description:
+        "Esta aplicacion se esta trabajando actualmente con Angular, se vera un progreso dia a dia",
     },
 ]
 
