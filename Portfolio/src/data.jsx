@@ -114,7 +114,7 @@ export const contact = [
         icon: <FiMail />,
         title: "¿Tienes alguna pregunta?",
         subtitle: "Estoy aqui para ayudarte.",
-        description: "Enviame un correo a talleresmatador114@gmail.com",
+        description: "Enviame un correo a enieto.developer@gmail.com",
     },
     {
         icon: <FiMapPin />,
