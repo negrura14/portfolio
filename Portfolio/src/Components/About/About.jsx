@@ -39,7 +39,7 @@ function About() {
               </p>
             </div>
             <a
-              href="https://drive.google.com/file/d/14rq564XrSIMfY1_h_vh7tN4kON1cp2Yg/view?usp=sharing"
+              href="https://drive.google.com/file/d/1AxTSI--ZPe7k-FdaVBGgWilkTkDpViKP/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
